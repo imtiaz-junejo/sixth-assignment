@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salt'n Papper Restaurant</title>
+
+    <!----------------------------- Bootstrap CDN Link   --------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!----------------------------   Font awesome CDN  ------------------------------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css">
+
+    <!------------------------------    CSS Link   -------------------------------->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body class="bg-dark">
+    
+            <!------------------------    Navbar Strats   ------------------------------>
+
+            <nav class="navbar navbar-expand-lg " id="nav">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img src="./images/logo2.webp" width="140px" alt="">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto  mx-auto mb-lg-0" id="nav-font">
+                      <li class="nav-item" >
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item ms-3">
+                        <a class="nav-link" href="#">About Us</a>
+                      </li>
+                      <li class="nav-item ms-3">
+                        <a class="nav-link" href="#">Publication</a>
+                      </li>
+                      <li class="nav-item ms-3">
+                        <a class="nav-link" href="#">Feedback</a>
+                      </li>
+                      <li class="nav-item ms-3">
+                        <a class="nav-link" href="#">Get A Frenchise</a>
+                      </li>
+                      <li class="nav-item">
+                        <i class="bi bi-person text-white  pt-3 pb-3 ms-4"></i>
+                      </li>
+                      <li class="nav-item">
+                        <i class="bi bi-cart text-white pt-3 pb-3 ms-4"></i>
+                      </li>
+                     </ul>
+                    </div>
+                    <form class="d-flex" role="search">
+                      <button class="btn btn-outline-success" type="submit" id="bot">Order Online <i class="fa fa-regular fa-arrow-right" id="arrow"></i></button>
+                    </form>
+                </div>
+              </nav>
+
+                 <!------------------------    Main Homepage Image   ------------------------------>
+
+            <div class="row">
+                <img src="./images/22.webp" class="img-fluid" alt="">
+            </div>
+            <div class="row">
+                <div class="col-10" id="catagory">
+                    <h1 class="pt-3 pb-3 text-white text-center">Choose By Catagory</h1>
+                </div>
+
+             <!------------------ Carousel with Cards ----------------------->
+
+          <div id="carouselExampleControls" class="carousel slide d-none d-sm-block" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="cards-wrapper bg-dark">
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/catagory pizza.webp" alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Pizza</h5>
+                        </div>
+                    </div>   
+                    <div class="card">
+                        <div class="img-wrapper">
+                        <img src="./images/catagory soup.webp" alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Soup</h5>
+                        </div>
+                    </div> 
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/catagory small bites.webp" alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Small Bites</h5>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/catagory sandwiches.webp" alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Sandwiches</h5>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/catagory burger.webp" alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Burger</h5>
+                        </div>
+                    </div>  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="cards-wrapper">
+                    <div class="card">
+                        <img src="./images/catagory pizza.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Pizza</h5>
+                        </div>
+                    </div>   
+                    <div class="card">
+                        <img src="./images/catagory soup.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Soup</h5>
+                        </div>
+                    </div> 
+                    <div class="card">
+                        <img src="./images/catagory small bites.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Small Bites</h5>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <img src="./images/catagory sandwiches.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Sandwiches</h5>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/catagory burger.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Burger</h5>
+                        </div>
+                    </div>  
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div> 
+
+     <!---------------------- Carousel with cards ends  -------------------->
+    
+     <div class="row bg-dark">
+        <div class="col-lg-6 col-md-12 col-sm-12 pt-3 pb-5">
+          <img src="https://static.tossdown.com/images/f3b56ca1-145e-42f0-aacc-10106f79a557.webp" class="img-fluid" alt="">
+
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 pt-3 pb-5" id="immage-col">
+          <h2 class="text-danger text-center"><br><br>SALT'N PEPPER RESTAURANT</h2>
+          <h2 class="text-center text-white fw-bold">Discover The Tsate</h2>
+          <p class="paragraph text-white pt-5 pb-5">The Salt’n Pepper is Pakistan’s most recognized and distinguished hospitality brand with a history of market innovation and excellence in restaurants chain operation. The Salt’n Pepper Restaurants are regarded and respected as the number one restaurant entity in Pakistan by local and foreign observers.</p>
+        
+          
+        </div>
+      </div>
+      <h1 class="pt-3 pb-3 text-white text-center">Our deals</h1>
+      <div class="row mx-auto"  id="dealItems">
+        
+
+        <div class="col-lg-3 col-md-12 col-sm-12 ms-5 pb-5 pt-3" id="dealTarget">
+        <img src="./images/pic1.webp" class="img-fluid" alt="">
+        <h4 class="text-center text-white pt-2 pb-1 ">Superior</h4>
+        <p class="text-center text-white">Fried Chicken (2 Pcs), Chicken Sandwich Cold (2 Pcs),</p>
+        <button style="text-align: center; float:left ; margin : 0px 115px; border-bottom : null; border-radius: 50px; width: 140px;" type="button" class="btn btn-danger">Order Now</button>
+        </div>
+        <div class="col-lg-3 col-md-12 col-sm-12 ms-5 pb-5 pt-3">
+          <img src="./images/pic2.webp" class="img-fluid" alt="">
+          <h4 class="text-center text-white pt-2 pb-1 ">Pakistani B.B.Q</h4>
+          <p class="text-center text-white">Fried Chicken (2 Pcs), Chicken Sandwich Cold (2 Pcs),</p>
+          <button style="text-align: center; float:left ; margin : 0px 115px; border-bottom : null; border-radius: 50px; width: 140px;" type="button" class="btn btn-danger">Order Now</button>
+        </div>
+        <div class="col-lg-3  col-md-12 col-sm-12 ms-5 pb-5 pt-3">
+          <img src="./images/pic3.webp" class="img-fluid" alt="">
+          <h4 class="text-center text-white pt-2 pb-1 ">Pakistani Deluxe</h4>
+          <p class="text-center text-white">Fried Chicken (2 Pcs), Chicken Sandwich Cold (2 Pcs),</p>
+          <button style="text-align: center; float:left ; margin : 0px 115px; border-bottom : null; border-radius: 50px; width: 140px;" type="button" class="btn btn-danger">Order Now</button>
+        </div>
+      </div>
+      
+      <div class="row" id="dealItems">
+        
+
+        <div class="col-lg-3 col-md-12 col-sm-12 ms-5 pb-5 pt-3" id="dealTarget">
+        <img src="./images/pic4.webp" class="img-fluid" alt="">
+        <h4 class="text-center text-white pt-2 pb-1 ">VIP</h4>
+        <p class="text-center text-white">Fried Chicken (2 Pcs), Chicken Sandwich Cold (2 Pcs),</p>
+        <button style="text-align: center; float:left ; margin : 0px 115px; border-bottom : null; border-radius: 50px; width: 140px;" type="button" class="btn btn-danger">Order Now</button>
+        </div>
+        <div class="col-lg-3 col-md-12 col-sm-12 ms-5 pb-5 pt-3">
+          <img src="./images/pic3.webp" class="img-fluid" alt="">
+          <h4 class="text-center text-white pt-2 pb-1 ">Deluxe</h4>
+          <p class="text-center text-white">Fried Chicken (2 Pcs), Chicken Sandwich Cold (2 Pcs),</p>
+          <button style="text-align: center; float:left ; margin : 0px 115px; border-bottom : null; border-radius: 50px; width: 140px;" type="button" class="btn btn-danger">Order Now</button>
+        </div>
+        <div class="col-lg-3 col-md-12 col-sm-12 ms-5 pb-5 pt-3">
+          <img src="./images/pic6.webp" class="img-fluid" alt="">
+          <h4 class="text-center text-white pt-2 pb-1 ">Pakistan VIP</h4>
+          <p class="text-center text-white">Fried Chicken (2 Pcs), Chicken Sandwich Cold (2 Pcs),</p>
+          <button style="text-align: center; float:left ; margin : 0px 115px; border-bottom : null; border-radius: 50px; width: 140px;" type="button" class="btn btn-danger">Order Now</button>
+        </div>
+      </div>
+              <!---------------------------   MENU OF WEEK  ---------------------->
+      <div class="row">
+        <div class="col-md-6 col-lg-6 col-sm-12">
+            <h4 class="text-center text-danger pt-3 ms-5">MENU OF THE WEEK</h4>
+            <h6 class="text-center text-white fs-1 pt-4">Something Special <br>
+              For You To Try This Week!</h6>
+              <p class="text-white pt-3 ms-5 text-center">Boneless Chicken Handi (Portion), <br> Boneless Chicken Boti (4 Pcs), Chicken Seekh Kabab (3 Pcs), <br> Vegetable Biryani, Mint Raita, <br> Kachumar Salad, Nan, Dessert.</p>
+              <h3 class="text-white text-center pt-5">Pakistani VIP <br>
+                Price Rs. 1,890 Plus Tax</h3>
+                <button type="button" class="btn btn-danger pt-3 pb-3" id="order-onlinebtn">Order Online</button>
+        </div>
+        <div class="col-md-6 col-lg-6 col-sm-12">
+          <img src="./images/piccc.webp" class="img-fluid" alt="">
+        </div>
+      </div>
+      <h1 class="pt-3 pb-3 text-white text-center">Social Feed</h1>
+
+
+    <div class="row" style="display: flex; flex-direction: row;">
+      <div class="col-md-3 col-lg-3 col-sm-12" style="justify-content: space-around;">
+        <img src="./images/A.webp" class="img-fluid" alt="">
+      </div>
+      <div class="col-md-3 col-lg-3 col-sm-12" style="justify-content: space-around;">
+        <img src="./images/B.webp" class="img-fluid" alt="">
+      </div>
+      <div class="col-md-3 col-lg-3 col-sm-12" style="justify-content: space-around;">
+        <img src="./images/C.webp" class="img-fluid" alt="">
+      </div>
+      <div class="col-md-3 col-lg-3 col-sm-12" style="justify-content: space-around;">
+        <img src="./images/D.webp" class="img-fluid" alt="">
+      </div>
+    </div>
+
+    <!------------------      Footer     ------------------------------>
+<footer class="text-center bg-dark">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <img src="./images/resLogo.webp" id="RESLOGO" class="pt-3 pb-3" alt="">
+          <p class="text-white">
+            The Salt’n Pepper Restaurants are an example of gracious dinning, outstanding service, extraordinary classic and contemporary cuisine. The restaurants have become the ultimate dinning destinations in Lahore. From family occasions to business dinner and moments of the heart, this place is where unforgettable memories are made.
+            <ul>
+              <li>
+                <a href="#" class="text-white bg-dark" style="text-decoration: none; display: inline-block;">Terms & Conditions</a>
+              </li>
+              <li>
+                <a href="#" class="text-white bg-dark" style="text-decoration: none; display: inline-block;">Privacy Policy</a>
+              </li>
+            </ul>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4" id="FooterId">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4 text-white">
+            Site Links
+          </h6>
+          <p class="text-white">
+            <a href="#" class="text-reset ">Home</a>
+          </p>
+          <p class="text-white">
+            <a href="#" class="text-reset ">About US</a>
+          </p>
+          <p class="text-white">
+            <a href="#" class="text-reset ">Deals</a>
+          </p>
+          <p class="text-white">
+            <a href="#" class="text-reset ">Photos</a>
+          </p>
+          <p class="text-white">
+            <a href="#" class="text-reset ">Publication</a>
+          </p>
+          <p class="text-white">
+            <a href="#" class="text-reset ">Get A Frenchise</a>
+          </p>
+          <p class="text-white">
+            <a href="#" class="text-reset ">Photos</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4" id="FooterId2">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4 text-white">
+            Contact Us
+          </h6>
+          <p class="text-white">
+            <a href="#!" class="text-reset">+92 42 358 509 31</a>
+          </p>
+          <p class="text-white">
+            <a href="#!" class="text-reset">+92 42 358 509 31</a>
+          </p>
+          <p class="text-white">
+            <a href="#!" class="text-reset">+92 42 358 509 31</a>
+          </p>
+          <p class="text-white">
+            <a href="#!" class="text-reset">+92 42 358 509 31</a>
+          </p>
+          <p class="text-white">
+            <a href="#!" class="text-reset">snpfood@brain.net.pk</a>
+          </p>
+          <p class="text-white">
+            <a href="#!" class="text-reset">23-Usman Block, New GardenTown, Lahore, Pakistan</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4 text-white">Follow Us</h6>
+          <p class="text-white"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" id="IconColor" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+          
+            <svg xmlns="http://www.w3.org/2000/svg" id="IconColor" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" id="IconColor" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+
+            
+          </p>
+          <p class="text-white">
+            <img src="./images/app store.webp"class="ms-1 pt-3" alt="">
+            <img src="./images/g play.webp" class="ms-1 pt-3"alt="">
+          </p>
+          
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-white" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2023 Copyright:
+    <a class="text-white" href="#" style="text-decoration: none;">salt'n Restaurant</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+</body>
+</html>
